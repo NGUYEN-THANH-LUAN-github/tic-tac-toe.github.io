@@ -4,13 +4,13 @@
     font-family: 'Indie Flower', cursive;
 }
 
-h1 {
+.header {
     text-shadow: 1px 1px 2px black;
-    height: 20vh;
+    height: 15vh;
 }
 
 .div1 {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +50,12 @@ h1 {
 
 button:focus {
     box-shadow: none !important;
+}
+
+.div1 {
+    margin-bottom: 6vh;
+}
+
+.result {
+    margin-bottom: 4vh;
 }
