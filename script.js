@@ -119,7 +119,7 @@ const game = (function() {
 
 for (let button of buttons) {
     button.addEventListener('click', () => {
-        result.innerText = `You are playing as ${button.innerText}. Computer plays first.`;
+        result.innerText = `You are playing as ${button.innerText}. ${button.innerText==="X"?"You play":"Computer plays"} first.`;
         game.outerBoard.innerHTML = "";
         game.createBoard();
         if (button.innerText === "O") {
