@@ -108,12 +108,12 @@ const game = (function() {
     return {
         outerBoard,
         createBoard,
+        computerChoose,
+        playerChoose,
+        clearBoard,
         display,
         checkIfSomeoneWon,
         checkIfDraw,
-        clearBoard,
-        computerChoose,
-        playerChoose,
     }
 })();
 
