@@ -1,3 +1,3 @@
-# tic-tac-toe.github.io
+# tic-tac-toe
 
-[demo](https://nguyen-thanh-luan-github.github.io/tic-tac-toe.github.io/)
+[demo](https://thanh-luan-nguyen.github.io/tic-tac-toe/)
